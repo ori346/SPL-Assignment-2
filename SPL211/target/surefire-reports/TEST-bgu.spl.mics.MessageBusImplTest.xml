@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="bgu.spl.mics.MessageBusImplTest" time="0.016" tests="8" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1255"/>
+    <property name="java.class.path" value="C:\Users\Ori Fridman\Desktop\SPL211\SPL211\target\test-classes;C:\Users\Ori Fridman\Desktop\SPL211\SPL211\target\classes;C:\Users\Ori Fridman\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0-M1\junit-jupiter-engine-5.6.0-M1.jar;C:\Users\Ori Fridman\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Ori Fridman\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0-M1\junit-platform-engine-1.6.0-M1.jar;C:\Users\Ori Fridman\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Ori Fridman\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0-M1\junit-platform-commons-1.6.0-M1.jar;C:\Users\Ori Fridman\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0-M1\junit-jupiter-api-5.6.0-M1.jar;C:\Users\Ori Fridman\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\ORIFRI~1\AppData\Local\Temp\surefire11069933998667436839\surefirebooter1708937020751242883.jar C:\Users\Ori Fridman\AppData\Local\Temp\surefire11069933998667436839 2020-12-01T19-17-43_699-jvmRun1 surefire14830655924015102750tmp surefire_0489332745428019299tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Ori Fridman\Desktop\SPL211\SPL211\target\test-classes;C:\Users\Ori Fridman\Desktop\SPL211\SPL211\target\classes;C:\Users\Ori Fridman\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0-M1\junit-jupiter-engine-5.6.0-M1.jar;C:\Users\Ori Fridman\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Ori Fridman\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0-M1\junit-platform-engine-1.6.0-M1.jar;C:\Users\Ori Fridman\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Ori Fridman\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0-M1\junit-platform-commons-1.6.0-M1.jar;C:\Users\Ori Fridman\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0-M1\junit-jupiter-api-5.6.0-M1.jar;C:\Users\Ori Fridman\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Ori Fridman"/>
+    <property name="user.language" value="he"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Ori Fridman\Desktop\SPL211\SPL211"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ORIFRI~1\AppData\Local\Temp\surefire11069933998667436839\surefirebooter1708937020751242883.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="Ori Fridman"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1255"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Ori Fridman\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ORIFRI~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.2.4"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="C:\Users\Ori Fridman\Desktop\SPL211\SPL211"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-13.0.1\bin;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Users\Ori Fridman\AppData\Local\Microsoft\WindowsApps;C:\Users\Ori Fridman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\CLion 2020.2.4\bin;;C:\Users\Ori Fridman\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="testSubscribeBroadcast" classname="bgu.spl.mics.MessageBusImplTest" time="0"/>
+  <testcase name="testRegister" classname="bgu.spl.mics.MessageBusImplTest" time="0"/>
+  <testcase name="testComplete" classname="bgu.spl.mics.MessageBusImplTest" time="0">
+    <error message="MicroService never register to the message bus" type="java.lang.IllegalStateException">java.lang.IllegalStateException: MicroService never register to the message bus
+	at bgu.spl.mics.MessageBusImplTest.testComplete(MessageBusImplTest.java:55)
+</error>
+  </testcase>
+  <testcase name="testUnregister" classname="bgu.spl.mics.MessageBusImplTest" time="0"/>
+  <testcase name="testSubscribeEvent" classname="bgu.spl.mics.MessageBusImplTest" time="0"/>
+  <testcase name="testSendBroadcast" classname="bgu.spl.mics.MessageBusImplTest" time="0"/>
+  <testcase name="testSendEvent" classname="bgu.spl.mics.MessageBusImplTest" time="0">
+    <error message="MicroService never register to the message bus" type="java.lang.IllegalStateException">java.lang.IllegalStateException: MicroService never register to the message bus
+	at bgu.spl.mics.MessageBusImplTest.testSendEvent(MessageBusImplTest.java:75)
+</error>
+  </testcase>
+  <testcase name="testAwaitMessage" classname="bgu.spl.mics.MessageBusImplTest" time="0">
+    <error message="MicroService never register to the message bus" type="java.lang.IllegalStateException">java.lang.IllegalStateException: MicroService never register to the message bus
+	at bgu.spl.mics.MessageBusImplTest.testAwaitMessage(MessageBusImplTest.java:109)
+</error>
+  </testcase>
+</testsuite>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: bgu.spl.mics.FutureTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in bgu.spl.mics.FutureTest
+testGetWithTimeOut  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalMonitorStateException
+	at bgu.spl.mics.FutureTest.testGetWithTimeOut(FutureTest.java:56)
+

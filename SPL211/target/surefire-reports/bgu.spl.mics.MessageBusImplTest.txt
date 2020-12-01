@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: bgu.spl.mics.MessageBusImplTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in bgu.spl.mics.MessageBusImplTest
+testComplete  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: MicroService never register to the message bus
+	at bgu.spl.mics.MessageBusImplTest.testComplete(MessageBusImplTest.java:55)
+
+testSendEvent  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: MicroService never register to the message bus
+	at bgu.spl.mics.MessageBusImplTest.testSendEvent(MessageBusImplTest.java:75)
+
+testAwaitMessage  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: MicroService never register to the message bus
+	at bgu.spl.mics.MessageBusImplTest.testAwaitMessage(MessageBusImplTest.java:109)
+
