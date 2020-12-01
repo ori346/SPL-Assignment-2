@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: bgu.spl.mics.EwokTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in bgu.spl.mics.EwokTest
+bgu.spl.mics.EwokTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Lbgu/spl/mics/application/passiveObjects/Ewok;
+Caused by: java.lang.ClassNotFoundException: bgu.spl.mics.application.passiveObjects.Ewok
+

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: bgu.spl.mics.FutureTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in bgu.spl.mics.FutureTest
+bgu.spl.mics.FutureTest  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Lbgu/spl/mics/Future;
+Caused by: java.lang.ClassNotFoundException: bgu.spl.mics.Future
+
